@@ -5,16 +5,101 @@
   <Targets>
     <Target
       Icon="System.Drawing.Bitmap"
+      Name="CHM"
+      Type="HTML Help"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="DITA"
+      Type="DITA"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="DotNet"
+      Type="DotNet Help"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Eclipse"
+      Type="Eclipse Help"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="EPUB"
+      Type="EPUB"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="FrameMaker"
+      Type="FrameMaker"
+      Build="false"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
       Name="HTML5"
       Type="HTML5"
       Build="true"
-      LastBuilt=""
+      LastBuilt="1/7/2015 10:02:11 PM"
       LastPublished="" />
     <Target
       Icon="System.Drawing.Bitmap"
       Name="NewTarget"
       Type="PDF"
       Build="true"
+      LastBuilt="1/7/2015 10:02:12 PM"
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF"
+      Type="PDF"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="WebHelp"
+      Type="WebHelp"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="WebHelp Air"
+      Type="WebHelp AIR"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="WebHelp Mobile"
+      Type="WebHelp Mobile"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="WebHelp Plus"
+      Type="WebHelp Plus"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Word"
+      Type="Word"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="XHTML Book"
+      Type="XHTML Book"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="XPS"
+      Type="XPS"
       LastBuilt=""
       LastPublished="" />
   </Targets>
