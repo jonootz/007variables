@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapLog Protocol="2" Description="MadBuild V11 Generated HTML5" Date="2015-01-07T22:46:53.8938558-08:00">
+    <Messages>WARNING: Please note that you are using a trial version. The generated output will contain scrambled content.
+Compiling target HTML5...
+WARNING: Please note that you are using a trial version. The generated output will contain scrambled content.
+Compiling target NewTarget...
+WARNING: Please note that you are using a trial version. The generated output will contain scrambled content.
+WARNING: Please note that you are using a trial version. The generated output will contain scrambled content.
+Removing previously generated content...
+Removing previously generated content...
+Checking if auto-sync of any import file is needed...
+Gathering Glossary information...
+Build failed: The directory is not empty.
+Failed to build 1 target(s)
+Gathering Auto-index information...
+Saving log to "C:\Users\test1\Desktop\!TESTS\cap1\Project\Reports\HTML5 - Wednesday, January 07, 2015 [10.46 PM].mclog"
+</Messages>
+    <Warnings>
+        <LogEntry File="" Message="WARNING: Please note that you are using a trial version. The generated output will contain scrambled content." LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10068" />
+        <LogEntry File="" Message="WARNING: Please note that you are using a trial version. The generated output will contain scrambled content." LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="NewTarget" ErrorID="10068" />
+        <LogEntry File="" Message="WARNING: Please note that you are using a trial version. The generated output will contain scrambled content." LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10068" />
+        <LogEntry File="" Message="WARNING: Please note that you are using a trial version. The generated output will contain scrambled content." LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="NewTarget" ErrorID="10068" />
+    </Warnings>
+    <Errors>
+        <LogEntry File="../Targets/HTML5.fltar" Message="Build failed: The directory is not empty.&#xD;&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5" ErrorID="10086" />
+    </Errors>
+</MadCapLog>
