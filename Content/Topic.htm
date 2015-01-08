@@ -1,13 +1,193 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="229" MadCap:lastWidth="624">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="2025" MadCap:lastWidth="1280">
     <head>
         <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <h1>Topic Title</h1>
         <p>Delete this text and replace it with your own content.</p>
+        <p><MadCap:variable name="Variables.CompanyName" />
+        </p>
+        <p><MadCap:variable name="Variables.PhoneNumber" />
+        </p>
+        <p>System Long Date: <MadCap:variable name="System.LongDate" /></p>
+        <p><MadCap:variable name="Variables.DtFileCreation" />
+        </p>
+        <p><MadCap:variable name="Variables.DtFileSave" />
+        </p>
+        <p><MadCap:variable name="Variables.DtManually" />
+        </p>
+        <p><MadCap:variable name="Variables.DtOnBuild" />
+        </p>
+        <p><MadCap:variable name="Variables.DtProjectSave" />
+        </p>
+        <p>&#160;</p>
+        <p>&#160;</p>
         <p>
             <img src="Resources/Images/Capture1.png" />
         </p>
+        <p>&#160;</p>
+        <hr />
+        <h2>Extra tests</h2>
+        <h3>Table</h3>
+        <table style="width: 100%;" summary="Summary Test Text">
+            <caption>Caption Test Text</caption>
+            <col style="width: 33%;" />
+            <col style="width: 33%;" />
+            <col style="width: 33%;" />
+            <thead>
+                <tr>
+                    <th><MadCap:variable name="Variables.CompanyName"></MadCap:variable>
+                        <p><MadCap:variable name="Variables.PhoneNumber" />
+                        </p><![CDATA[
+]]><![CDATA[
+]]><![CDATA[
+]]><![CDATA[
+]]><![CDATA[
+]]><![CDATA[
+]]></th>
+                    <th>
+                        <p>System Long Date: <MadCap:variable name="System.LongDate" /></p>
+                    </th>
+                    <th>
+                        <p><MadCap:variable name="Variables.DtFileCreation" />
+                        </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><MadCap:variable name="Variables.DtFileSave" />
+                        </p>
+                    </td>
+                    <td>
+                        <p><MadCap:variable name="Variables.DtManually" />
+                        </p>
+                    </td>
+                    <td><MadCap:variable name="Variables.DtOnBuild" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td><MadCap:variable name="Variables.DtProjectSave" />
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+            </tfoot>
+        </table>
+        <p>&#160;</p>
+        <h3>Div</h3>
+        <div class="fortesting">
+            <p><MadCap:variable name="Variables.CompanyName"></MadCap:variable>
+            </p>
+            <p><MadCap:variable name="Variables.PhoneNumber" />
+            </p>
+            <p>System Long Date: <MadCap:variable name="System.LongDate" /></p>
+            <p><MadCap:variable name="Variables.DtFileCreation" />
+            </p>
+            <p><MadCap:variable name="Variables.DtFileSave" />
+            </p>
+            <p><MadCap:variable name="Variables.DtManually" />
+            </p>
+            <p><MadCap:variable name="Variables.DtOnBuild" />
+            </p>
+            <p><MadCap:variable name="Variables.DtProjectSave" />
+            </p>
+        </div>
+        <h3>Toggler</h3>
+        <p>
+            <MadCap:toggler targets="a">Toggler:</MadCap:toggler>
+        </p>
+        <p MadCap:targetName="a"><MadCap:variable name="Variables.CompanyName" />
+            <MadCap:toggler targets="b">b</MadCap:toggler>
+        </p>
+        <p><MadCap:variable name="Variables.PhoneNumber" MadCap:targetName="b" />
+            <MadCap:toggler targets="c">c</MadCap:toggler>
+        </p>
+        <p MadCap:targetName="c">System Long Date: <MadCap:variable name="System.LongDate" /><MadCap:toggler targets="d">d</MadCap:toggler></p>
+        <p MadCap:targetName="d"><MadCap:variable name="Variables.DtFileCreation" />
+            <MadCap:toggler targets="e">e</MadCap:toggler>
+        </p>
+        <p MadCap:targetName="e"><MadCap:variable name="Variables.DtFileSave" />
+            <MadCap:toggler targets="f">f</MadCap:toggler>
+        </p>
+        <p MadCap:targetName="f"><MadCap:variable name="Variables.DtManually" />
+            <MadCap:toggler targets="g">g</MadCap:toggler>
+        </p>
+        <p MadCap:targetName="g"><MadCap:variable name="Variables.DtOnBuild" />
+            <MadCap:toggler targets="h">h</MadCap:toggler>
+        </p>
+        <p MadCap:targetName="h"><MadCap:variable name="Variables.DtProjectSave" />
+        </p>
+        <h3>Dropdown</h3>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Dropdown: </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p><MadCap:variable name="Variables.CompanyName"></MadCap:variable>
+                </p>
+                <p><MadCap:variable name="Variables.PhoneNumber" />
+                </p>
+                <p>&#160;</p>
+                <p>System Long Date: <MadCap:variable name="System.LongDate" /></p>
+                <p><MadCap:variable name="Variables.DtFileCreation" />
+                </p>
+                <p>&#160;</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot><MadCap:variable name="Variables.DtFileSave" />
+                        </MadCap:dropDownHotspot><MadCap:variable name="Variables.DtFileSave" />
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>&#160;</p>
+                        <p><MadCap:variable name="Variables.DtManually" />
+                        </p>
+                        <p>&#160;</p>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot><MadCap:variable name="Variables.DtOnBuild" />
+                                </MadCap:dropDownHotspot><MadCap:variable name="Variables.DtOnBuild" />
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <p>&#160;</p>
+                                <p><MadCap:variable name="Variables.DtProjectSave" />
+                                </p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <p>&#160;</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h3>Expanding</h3>
+        <p>
+            <MadCap:expanding>
+                <MadCap:expandingHead>Expand:</MadCap:expandingHead>
+                <MadCap:expandingBody>&#160;<MadCap:variable name="Variables.CompanyName" /><MadCap:variable name="Variables.PhoneNumber" />System Long Date: <MadCap:variable name="System.LongDate" /><MadCap:variable name="Variables.DtFileCreation" /><MadCap:variable name="Variables.DtFileSave" /><MadCap:variable name="Variables.DtManually" /><MadCap:variable name="Variables.DtOnBuild" /><MadCap:variable name="Variables.DtProjectSave" /></MadCap:expandingBody>
+            </MadCap:expanding> </p>
     </body>
 </html>
